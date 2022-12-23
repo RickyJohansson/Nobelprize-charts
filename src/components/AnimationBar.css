@@ -1,0 +1,55 @@
+.animation_bar__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animation_bar__wrapper .animations_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    z-index: 1;
+}
+
+.animation_bar__wrapper h2 {
+    padding-top: .5em;
+}
+
+.animation_bar__wrapper section {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.animations_container section {
+    padding: 2em;
+    font-weight: 500;
+    width: fit-content;
+    margin: 1em .5em;
+    background-color: #003DF5;
+    box-shadow: 0 .3em .4em 0 #001F7A;
+    border-radius: .4em;
+  }
+  
+.animations_container section:hover {
+    cursor: pointer;
+    background-color: #4775FF;
+    box-shadow: 0 .2em .4em 0 #003DF5;
+}
+  
+.animations_container section:active {
+    transform: translateY(-.05em);
+    background-color: #003DF5;
+    scale: .95;
+    box-shadow: 0 .2em .4em 0 #003DF5;
+}
+
+.animations_container section.disabled {
+    background-color: #001F7A;
+}
+
+
+.animations_container section.disabled:hover {
+    box-shadow: 0 .3em .4em 0 #001F7A;
+}
+

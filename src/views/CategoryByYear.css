@@ -1,0 +1,42 @@
+.category_by-year--wrapper {
+    display: flex;
+    justify-content: center;
+    height: 40em;
+}
+
+.category_by-year--wrapper .diagram_container {
+    z-index: 1;
+    width: 45em;
+}
+
+.category_by-year--wrapper .diagram_container .diagram_title {
+    margin: 2em 0 0.6em 0;
+}
+
+.category_by-year--wrapper .diagram_container p {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.category_by-year--wrapper .diagram_container h2, .form {
+    margin: .5em;
+    text-align: center;
+}
+
+.category_by-year--wrapper .diagram_container .diagram_year {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.category_by-year--wrapper .diagram_container .diagram_data {
+    border-radius: 1em;
+}
+
+.right {
+    display: none;
+}
+
+.wrong {
+    display: visible;
+}
+

@@ -1,0 +1,30 @@
+.category_wrapper {
+    display: flex;
+    justify-content: center;
+    height: 40em;
+}
+
+.category_wrapper .diagram_container {
+    z-index: 1;
+    width: 30em;
+}
+
+.category_wrapper .diagram_container .diagram_titles {
+    text-align: center;
+    margin: 1.5em;
+}
+
+.category_wrapper .diagram_container .diagram_data {
+    z-index: 1;
+    margin-bottom: 5em;
+    border-radius: 1em;
+}
+
+.category_wrapper .diagram_container .diagram_data > * {
+    background-color: #EBF0FF;
+}
+
+.diagram_titles h1 {
+    margin: .5em;
+    font-size: 1.5em;
+}

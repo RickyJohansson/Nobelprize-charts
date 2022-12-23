@@ -1,0 +1,22 @@
+.genders_wrapper {
+    display: flex;
+    justify-content: center;
+    height: 40em;
+}
+
+.genders_wrapper .diagram_container {
+    z-index: 1;
+    width: 30em;
+}
+
+.diagram_container .diagram_title {
+    text-align: center;
+    margin: 2em;
+}
+
+.diagram_container .diagram_data {
+    margin-bottom: 5em;
+    border-radius: 1em;
+    background-color: #EBF0FF;
+}
+

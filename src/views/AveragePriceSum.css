@@ -1,0 +1,29 @@
+.average_price-sum--wrapper {
+    display: flex;
+    justify-content: center;
+    height: 40em;
+}
+
+.average_price-sum--wrapper .diagram_container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.average_price-sum--wrapper .diagram_container .diagram_data {
+    display: flex;
+    justify-content: center;
+    width: 60em;
+    border-radius: 1em;
+}
+
+.average_price-sum--wrapper .diagram_data .diagram_title {
+    text-align: center;
+    margin: 2em;
+}
+
+.diagram_container .diagram_data > * {
+    border-radius: 1em;
+    background-color: #EBF0FF;
+}

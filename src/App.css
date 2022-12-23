@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+body {
+  overflow: hidden;
+}
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000A29;
+}
+
+.App {
+  font-family: 'Rubik', sans-serif;
+  color: #EBF0FF;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.random_star {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: -5em;
+  width: 2em;
+  height: 2em;
+}
+
+.star_piece__one {
+  position: absolute;
+  width: .5rem;
+  height: .5rem;
+  background-color: #EBF0FF;
+}
+
+.star_piece__two {
+  position: absolute;
+  width: .5rem;
+  height: .5rem;
+  rotate: -45deg;
+  background-color: #EBF0FF;
+}
+
+.star_piece__three {
+  position: absolute;
+  width: .5rem;
+  height: .5rem;
+  rotate: 45deg;
+  background-color: #EBF0FF;
+}
+
+
+
