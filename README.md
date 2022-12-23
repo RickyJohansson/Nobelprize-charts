@@ -6,24 +6,24 @@ Tillagda kommentarer i koden som beskriver tillvägagångsättet för att få da
 
 Exempelvis: 
 Antal pristagare inom de olika kategorierna, även tillagt extra funktionalitet som att kunna välja det år man vill se.
-- Tagit hänsyn till att samma pristagare kan ha tagit nobelpris ur fler kategorier ett visst år.
-- Isåfall fördelas den deltagare ut över samtliga kategorier den fick pris i vid det året.
+Tagit hänsyn till att samma pristagare kan ha tagit nobelpris ur fler kategorier ett visst år.
+Isåfall fördelas den deltagare ut över samtliga kategorier den fick pris i vid det året.
 
 Totalt antal pristagare som fördelas över de olika kategorierna.
-- Alla pristagare hämtas, tar hänsyn till att dom kan ha vunnit i flera kategorier.
-- För om dem har vunnit i fler kategorier, bör samma pristagare fördelas över dessa.
-- Därför kollas det även av att det inte är samma kategori som tas med flera gånger, utan endast enskild.
+Alla pristagare hämtas, tar hänsyn till att dom kan ha vunnit i flera kategorier.
+För om dem har vunnit i fler kategorier, bör samma pristagare fördelas över dessa.
+Därför kollas det även av att det inte är samma kategori som tas med flera gånger, utan endast enskild.
 
 
 * Linje-diagram
-- Genomsnittlig prissumma per år.
+Genomsnittlig prissumma per år.
 
 * Stapel-diagram
-- Antal pristagare inom de olika kategorierna, även tillagt extra funktionalitet som att kunna välja det år man vill se.
+Antal pristagare inom de olika kategorierna, även tillagt extra funktionalitet som att kunna välja det år man vill se.
 
 * Cirkel-diagram
-- För fördelningen av män/kvinnor bland pristagare
-- Totalt antal pristagare som fördelas över de olika kategorierna
+För fördelningen av män/kvinnor bland pristagare
+Totalt antal pristagare som fördelas över de olika kategorierna
 
 -----------------------------------------------------------------------------------------------------------------------------
 
