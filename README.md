@@ -22,8 +22,7 @@ Genomsnittlig prissumma per år.
 Antal pristagare inom de olika kategorierna, även tillagt extra funktionalitet som att kunna välja det år man vill se.
 
 * Cirkel-diagram
-För fördelningen av män/kvinnor bland pristagare
-Totalt antal pristagare som fördelas över de olika kategorierna
+För fördelningen av män/kvinnor bland pristagare, samt totalt antal pristagare som fördelas över de olika kategorierna
 
 -----------------------------------------------------------------------------------------------------------------------------
 
