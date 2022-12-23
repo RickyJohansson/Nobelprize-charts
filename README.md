@@ -55,30 +55,30 @@ Totalt antal pristagare som fördelas över de olika kategorierna.
 
 Exempel:
 
-* Squash and stretch
+Squash and stretch
 - Knapparna minskar storlek för att få en naturligare känsla av att de trycks ned.
 
-* Anticipation
+Anticipation
 - Alfred Nobel rullar in på skärmen i början samt snö/stjärna/objekten börjar röra sig runt gränssnittets bakgrund.
 - Användaren förväntas/förbereds på att sidan kan innehålla ett antal animering.
 
-* Straight ahead action and pose to pose
+Straight ahead action and pose to pose
 - Straight ahead action: Stairy animationen innehåller utvalda steg för att få en visuell upplevelse av att diagrammet rör sig i trapp-steg.
 - Pose to pose: Animationerna innehåller start-slutvärden för att hamna på rätt positioner.
 
-* Follow through
+Follow through
 - Dive animationen bouncar en del vid landning, för en mer realistisk fysik än att det skulle fastna tvärt vid landningen.
 
-* Slow in and slow out
+Slow in and slow out
 - Olika easing funktioner har använts för animationerna för att åstadkomma mer realistiska rörelser där det finns behov av det.
 
-* Secondary action
+Secondary action
 - 'Choose among the animations' strängen skakar till som en secondary action till den primära vilket bara är en statisk beskrivning med hjälp av text.
 
-* Timing
+Timing
 - Stairy funktionen rör sig stegvis och beror funktionellt på tid/förflyttning.
 
-* Appeal
+Appeal
 - Den kontinuerliga animationen i bakgrunden skapar lite karisma till gränssnittet, det skapar ett mer tilltalande helhetsintryck.
 - Den kan bidra till att man blir lite mer sugen på att navigera sig vidare på sidan.
 
