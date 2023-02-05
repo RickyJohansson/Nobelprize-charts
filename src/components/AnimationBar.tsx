@@ -44,6 +44,7 @@ const AnimationBar = ({setCurrentAnimation}: Props) => {
 
     return(
         <div className="animation_bar__wrapper">
+            <h2>Choose among the animations</h2>
             <div className="animations_container">
                 <section onClick={ () => setCurrentAnimation('dive') }>Dive</section>
                 <section onClick={ () => setCurrentAnimation('fade') }>Fade</section>
@@ -51,7 +52,6 @@ const AnimationBar = ({setCurrentAnimation}: Props) => {
                 <section onClick={ () => setCurrentAnimation('slide') }>Slide</section>
                 <section onClick={ () => setCurrentAnimation('roll') }>Roll</section>
             </div>
-            <h2>Choose among the animations</h2>
         </div>
     )
 }

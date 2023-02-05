@@ -1,7 +1,7 @@
 .average_price-sum--wrapper {
     display: flex;
     justify-content: center;
-    height: 40em;
+    height: 35em;
 }
 
 .average_price-sum--wrapper .diagram_container {
@@ -14,7 +14,8 @@
 .average_price-sum--wrapper .diagram_container .diagram_data {
     display: flex;
     justify-content: center;
-    width: 60em;
+    width: 50em;
+    height: 25em;
     border-radius: 1em;
 }
 

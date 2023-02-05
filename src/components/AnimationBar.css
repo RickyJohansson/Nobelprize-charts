@@ -22,9 +22,9 @@
 }
 
 .animations_container section {
-    padding: 2em;
+    padding: 1.2em;
     font-weight: 500;
-    width: fit-content;
+    width: 5em;
     margin: 1em .5em;
     background-color: #003DF5;
     box-shadow: 0 .3em .4em 0 #001F7A;

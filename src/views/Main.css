@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4em;
+    margin-top: 1.5em;
+    width: 100%;
 }
 
 .main_info {
     text-align: center;
+    width: 80%;
 }
 
 .main_info img {
@@ -19,7 +21,7 @@
 }
 
 .main_info h2 {
-    margin: .8em 0 .8em 0;
+    margin: .5em;
     z-index: 1;
 }
 

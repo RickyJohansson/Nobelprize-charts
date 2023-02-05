@@ -1,10 +1,13 @@
 .genders_wrapper {
     display: flex;
     justify-content: center;
-    height: 40em;
+    height: 35em;
 }
 
 .genders_wrapper .diagram_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     z-index: 1;
     width: 30em;
 }
@@ -14,9 +17,11 @@
     margin: 2em;
 }
 
-.diagram_container .diagram_data {
+.genders_wrapper .diagram_container .diagram_data {
     margin-bottom: 5em;
     border-radius: 1em;
     background-color: #EBF0FF;
+    width: 25em;
+    height: 25em;
 }
 
