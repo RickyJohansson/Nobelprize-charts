@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.animations_container section {
+.animations_container .false {
     padding: 1.2em;
     font-weight: 500;
     width: 5em;
@@ -29,7 +29,17 @@
     background-color: #003DF5;
     box-shadow: 0 .3em .4em 0 #001F7A;
     border-radius: .4em;
-  }
+}
+
+.animations_container .true {
+padding: 1.2em;
+font-weight: 500;
+width: 5em;
+margin: 1em .5em;
+background-color: #4775FF;
+box-shadow: 0 .3em .4em 0 #001F7A;
+border-radius: .4em;
+}
   
 .animations_container section:hover {
     cursor: pointer;

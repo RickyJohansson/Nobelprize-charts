@@ -13,7 +13,7 @@ import anime from 'animejs';
 
 function App() {
 
-  const [currentAnimation, setCurrentAnimation] = useState<String>('fade');
+  const [currentAnimation, setCurrentAnimation] = useState<string>('fade');
 
 
   let animationRef = useRef<HTMLButtonElement | null>(null);
@@ -63,7 +63,7 @@ function App() {
         <Route path="/CategoryByYear" element={<CategoryByYear currentAnimation={ currentAnimation }/>} />
         <Route path="/AveragePriceSum" element={<AveragePriceSum currentAnimation={ currentAnimation }/>} />
       </Routes>
-      < AnimationBar setCurrentAnimation={setCurrentAnimation} />
+      < AnimationBar setCurrentAnimation={setCurrentAnimation}/>
     </div>
   )
 }

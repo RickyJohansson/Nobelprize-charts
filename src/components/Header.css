@@ -17,7 +17,17 @@
     flex: 1;
 }
 
-.category_container section {
+.category_container .true {
+    padding: 1.2em;
+    font-weight: 500;
+    width: fit-content;
+    margin: 1em .5em;
+    background-color: #4775FF;
+    box-shadow: 0 .3em .4em 0 #001F7A;
+    border-radius: .4em;
+  }
+
+.category_container .false {
     padding: 1.2em;
     font-weight: 500;
     width: fit-content;
@@ -39,3 +49,4 @@
     scale: .95;
     box-shadow: 0 .2em .4em 0 #003DF5;
 }
+
