@@ -44,6 +44,7 @@ const Genders = ({currentAnimation}: Props) => {
                 translateY: { value: ['-100vw', '0']},
                 endDelay: 500,
                 duration: 2000,
+                easing: 'spring(.2, 30, 3.5, .2)',
                 autoplay: true
             });
         } else if (currentAnimation === 'stairy') {
